@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+// Определить класс Children, который содержит такие поля (члены класса): 
+// закрытые – имя ребенка, фамилию и возраст , публичные – методы ввода 
+// данных и отображения их на экран. Объявить два объекта класса, внести данные и показать их.
+
 class Children {
 public:
     void output();
@@ -36,6 +40,6 @@ int main() {
 
     FirstChild.output();
     SecondChild.output();
-    
+
     return 0;
 }

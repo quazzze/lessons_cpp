@@ -36,4 +36,4 @@ int main(){
 
 void Tiles::GetData(){
     cout << brand << ": " << size_h << "x" << size_w << " - " << price << "$" << endl; 
-};
+}
